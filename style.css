@@ -1,4 +1,4 @@
-/* Start Variables */
+/*===== Start Variables =====*/
 :root {
   /* Fonts */
   --body-font: "Barlow Semi Condensed", sans-serif;
@@ -9,9 +9,9 @@
   --light-gray: hsl(0, 0%, 81%);
   --light-grayishBlue: hsl(210, 46%, 95%);
 }
-/* End Variables */
+/*===== End Variables =====*/
 
-/* Start Global Rules */
+/*===== Start Global Rules =====*/
 * {
   margin: 0;
   padding: 0;
@@ -24,9 +24,9 @@ body {
   place-items: center;
   min-height: 100vh;
 }
-/* End Global Rules */
+/*===== End Global Rules =====*/
 
-/* Start Main Layout Rules */
+/*===== Start Main Layout Rules =====*/
 /* 1- Mobile-First <576px */
 .container {
   padding: 0 1.5625rem;
@@ -79,9 +79,9 @@ body {
     "card-3 card-4 card-4 card-5";
   }
 }
-/* End Main Layout Rules */
+/*===== End Main Layout Rules =====*/
 
-/* Start Main Style Rules */
+/*===== Start Main Style Rules =====*/
 .card {
   padding: 2rem;
   border-radius: 0.625rem;
@@ -154,10 +154,11 @@ body {
 }
 .review-quote {
   font-size: .8125rem;
+  line-height: 1.65;
 }
-/* End Main Style Rules */
+/*===== End Main Style Rules =====*/
 
-/* Start card 1,2,4 Style Rules */
+/*===== Start card 1,2,4 Style Rules =====*/
 .card-1 .name,
 .card-2 .name,
 .card-4 .name {
@@ -177,11 +178,10 @@ body {
 .card-2 .review-quote,
 .card-4 .review-quote {
   color: rgba(255, 255, 255, 0.75);
-  line-height: 1.65;
 }
-/* End card 1,2,4 Style Rules */
+/*===== End card 1,2,4 Style Rules =====*/
 
-/* Start card 3,5 Style Rules */
+/*===== Start card 3,5 Style Rules =====*/
 .card-3 .name,
 .card-5 .name,
 .card-3 .review-title,
@@ -196,4 +196,4 @@ body {
 .card-5 .review-quote {
   color: #0e0e0eb0;
 }
-/* End card 3,5 Style Rules */
+/*===== End card 3,5 Style Rules =====*/
